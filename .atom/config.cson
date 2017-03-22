@@ -1,0 +1,25 @@
+"*":
+  "color-tabs":
+    backgroundStyle: "solid"
+  core:
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "ariake-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Mono"
+    fontSize: 12
+    lineHeight: 1.7
+    preferredLineLength: 100
+    showInvisibles: true
+  "exception-reporting":
+    userId: "4f6324c1-ead3-d7ba-46dd-8bfe9e121635"
+  fonts: {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false

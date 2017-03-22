@@ -1,0 +1,9 @@
+'atom-workspace':
+  'ctrl-i':     'cursor-history:next'
+  'ctrl-o':     'cursor-history:prev'
+  'ctrl-cmd-i': 'cursor-history:next-within-editor'
+  'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'alt-k': 'editor:move-line-up'
+  'alt-j': 'editor:move-line-down'
