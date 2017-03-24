@@ -7,3 +7,7 @@
 'atom-workspace atom-text-editor:not([mini])':
   'alt-k': 'editor:move-line-up'
   'alt-j': 'editor:move-line-down'
+  'alt-pageup': 'linter-ui-default:previous'
+  'alt-pagedown': 'linter-ui-default:next'
+  'ctrl-shift-pagedown': 'multi-cursor:expandDown'
+  'ctrl-shift-pageup': 'multi-cursor:expandUp'

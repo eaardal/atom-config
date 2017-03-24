@@ -2,14 +2,17 @@
   "color-tabs":
     backgroundStyle: "solid"
   core:
-    packagesWithKeymapsDisabled: []
+    audioBeep: false
+    packagesWithKeymapsDisabled: [
+      "linter-ui-default"
+    ]
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "ariake-dark-syntax"
+      "nord-atom-ui"
+      "nord-atom-syntax"
     ]
   editor:
-    fontFamily: "Fira Mono"
+    fontFamily: "Source Code Pro"
     fontSize: 12
     lineHeight: 1.7
     preferredLineLength: 100
@@ -17,9 +20,15 @@
   "exception-reporting":
     userId: "4f6324c1-ead3-d7ba-46dd-8bfe9e121635"
   fonts: {}
+  "linter-ui-default":
+    showPanel: true
+    showStatusBar: false
+    statusBarRepresents: "Entire Project"
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
   welcome:
     showOnStartup: false
