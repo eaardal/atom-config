@@ -30,5 +30,8 @@
       "highlight-selectedDecorationsZIndex": 0
   "nord-atom-ui":
     darkerFormFocusEffect: true
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   welcome:
     showOnStartup: false
