@@ -7,7 +7,7 @@ $ git clone https://github.com/eaardal/atom-config.git
 ## Windows symlink
 
 ```
-$ mklink /J {this-git-repo-path}\.atom C:\Users\{username}\.atom
+$ mklink /J C:\Users\{username}\.atom {this-git-repo-path}\.atom
 ```
 
 ## Linux symlink
